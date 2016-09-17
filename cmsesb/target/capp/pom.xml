@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nl.ciber.cmsesb</groupId>
+  <artifactId>cmsesb_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>cmsesb_module</name>
+  <description>cmsesb_module</description>
+  <modules>
+    <module>artifacts\inbound-endpoint\File_Webshop_Artikelen</module>
+    <module>artifacts\sequence\start_file_webshop_Artikelen</module>
+  </modules>
+</project>

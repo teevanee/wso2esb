@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="File_Webshop_Artikelen" groupId="nl.ciber.cmsesb.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/File_Webshop_Artikelen.xml</file>
+    </artifact>
+    <artifact name="start_file_webshop_Artikelen" groupId="nl.ciber.cmsesb.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/start_file_webshop_Artikelen.xml</file>
+    </artifact>
+</artifacts>
