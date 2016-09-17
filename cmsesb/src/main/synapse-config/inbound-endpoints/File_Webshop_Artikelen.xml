@@ -10,11 +10,11 @@
     <parameter name="transport.vfs.AutoLockRelease">false</parameter>
     <parameter name="transport.vfs.ActionAfterFailure">MOVE</parameter>
     <parameter name="transport.vfs.ActionAfterProcess">MOVE</parameter>
-    <parameter name="transport.vfs.FileURI">vfs:file:///opt/data/cms/in/</parameter>
-    <parameter name="transport.vfs.MoveAfterFailure">vfs:file:///opt/data/cms/error/</parameter>
+    <parameter name="transport.vfs.FileURI">file:///opt/data/cms/in/</parameter>
+    <parameter name="transport.vfs.MoveAfterFailure">file:///opt/data/cms/error/</parameter>
     <parameter name="transport.vfs.DistributedLock">false</parameter>
     <parameter name="transport.vfs.FileNamePattern">test.*.txt</parameter>
-    <parameter name="transport.vfs.MoveAfterProcess">vfs:file:///opt/data/cms/sent/</parameter>
+    <parameter name="transport.vfs.MoveAfterProcess">file:///opt/data/cms/sent/</parameter>
     <parameter name="transport.vfs.Locking">enable</parameter>
     <parameter name="transport.vfs.FileSortAttribute">none</parameter>
     <parameter name="transport.vfs.FileSortAscending">true</parameter>
